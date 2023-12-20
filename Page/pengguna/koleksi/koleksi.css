@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.book img {
+  width: 120px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+.searchContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.searchInput {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.searchButton {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  cursor: pointer;
+  z-index: 1;
+  border: none;
+  border-radius: 20%;
+  padding: 5px 15px; /* Adjust the padding to increase the button's width */
+}

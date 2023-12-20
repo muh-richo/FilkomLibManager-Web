@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../../asset/font/RobotoSlab-Regular.ttf') inputat('truetype');
+}
+
+body {
+    background-color: #e7e7e7;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+table {
+    text-align: center;
+    width: 85%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.kategori {
+    background-color: #86d3f9;
+}
+
+.data:hover{ 
+    background-color: #ddd;
+}

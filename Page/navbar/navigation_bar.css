@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../../asset/font/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #2224a3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-left: 5px;
+}
+
+.perpus {
+    color: white;
+    margin-left: 20px;
+}
+
+.user_profile {
+    float: right;
+    margin-right: 5px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav_links a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+}
+
+.nav_links a:hover {
+    color: rgb(187, 184, 184);
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../../asset/font/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #e7e7e7;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    margin-right: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-buku {
+    background-color: #137db5; 
+    padding: 45px 50px 0 50px;
+}
+
+.logo-buku {
+    width: 110px;
+}
+
+.btn-buku:hover {
+    background-color: #126693; 
+}
+
+.btn-anggota {
+    background-color: #00a65a;
+}
+
+.btn-anggota:hover {
+    background-color: #017f46;
+}
+
+.btn-peminjaman {
+    background-color: #256d85;
+    padding: 45px 50px 0 50px;
+}
+
+.logo-peminjaman {
+    width: 110px;
+}
+
+.btn-peminjaman:hover {
+    background-color: #1e586b;
+}
+
+.footer {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-perpus {
+    width: 100px;
+}
